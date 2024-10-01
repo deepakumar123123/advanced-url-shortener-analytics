@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>रजिस्टर</title>
+</head>
+<body>
+    <h1>रजिस्टर करें</h1>
+    <form method="POST">
+        <label for="username">यूज़रनाम:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">रजिस्टर</button>
+    </form>
+    <a href="{{ url_for('index') }}">होम पर वापस जाएं</a>
+</body>
+</html>
